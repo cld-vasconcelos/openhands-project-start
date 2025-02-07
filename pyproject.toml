@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "openhands-auth"
+version = "0.1.0"
+description = "User authentication and management system API built using Django"
+authors = ["OpenHands <openhands@all-hands.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2.7"
+djangorestframework = "^3.14.0"
+django-allauth = "^0.58.2"
+djangorestframework-simplejwt = "^5.3.0"
+argon2-cffi = "^23.1.0"
+django-ratelimit = "^4.1.0"
+psycopg2-binary = "^2.9.9"
+django-recaptcha = "^3.0.0"
+django-otp = "^1.2.2"
+pillow = "^10.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pytest-django = "^4.7.0"
+black = "^23.11.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
