@@ -1,4 +1,4 @@
-.PHONY: install migrate run test docker-up
+.PHONY: install migrate run test docker-up docker-down
 
 install:
        poetry install --no-root
@@ -17,3 +17,6 @@ test:
 
 docker-up:
        docker-compose up -d
+
+docker-down:
+       docker-compose down
