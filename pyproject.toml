@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "User Authentication and Management System"
 authors = ["OpenHands <openhands@all-hands.dev>"]
 readme = "README.md"
-python = "^3.11"
 
 [tool.poetry.dependencies]
 python = "^3.11"
